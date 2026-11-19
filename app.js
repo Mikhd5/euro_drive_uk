@@ -199,3 +199,15 @@
   reducedMotion.addEventListener?.('change', syncVideo);
   document.addEventListener('visibilitychange', syncVideo);
 })();
+
+
+// Keep the floating WhatsApp shortcut out of the way while the booking form is on screen.
+(() => {
+  const booking = document.querySelector('.booking-section');
+  if (!booking || !('IntersectionObserver' in window)) return;
+  const observer = new IntersectionObserver(entries => {
+    const visible = entries.some(entry => entry.isIntersecting);
+    document.body.classList.toggle('booking-visible', visible);
+  }, { rootMargin: '-8% 0px -12% 0px', threshold: 0 });
+  observer.observe(booking);
+})();
