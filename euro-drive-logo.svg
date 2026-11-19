@@ -2,19 +2,18 @@
   <title id="title">EURO DRIVE</title>
   <desc id="desc">EURO DRIVE — Ukraine – England</desc>
   <defs>
-    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ed1c24"/><stop offset="1" stop-color="#b90f1b"/></linearGradient>
-    <filter id="soft" x="-10%" y="-15%" width="120%" height="140%"><feGaussianBlur stdDeviation="1.2"/></filter>
+    <linearGradient id="brandRed" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ef343b"/>
+      <stop offset="1" stop-color="#bd1722"/>
+    </linearGradient>
   </defs>
-  <g font-family="Noto Serif, DejaVu Serif, Georgia, serif" font-size="91" font-weight="700" letter-spacing="1.5">
-    <text x="4" y="94" fill="#fff">E</text>
-    <text x="72" y="94" fill="url(#red)">U</text>
-    <path d="M78 4 L91 4 L91 24 L105 11 L105 29 L85 48 L65 29 L65 11 L78 24 Z" fill="url(#red)"/>
-    <text x="151" y="94" fill="#fff">RO</text>
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="91" font-weight="700" letter-spacing="1.5">
+    <text x="4" y="94" fill="#fff">EURO</text>
     <text x="435" y="94" fill="#fff" textLength="377" lengthAdjust="spacingAndGlyphs">DRIVE</text>
   </g>
-  <g transform="translate(331 0)">
-    <path d="M43 0C18 0 0 19 0 44c0 33 43 78 43 78s43-45 43-78C86 19 68 0 43 0Z" fill="url(#red)"/>
-    <path d="M25 27c8-8 25-8 34 0 8 8 4 18-7 23-9 4-16 8-15 17 1 7 8 12 17 11" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(331 3)">
+    <path d="M43 0C19 0 0 19 0 43c0 32 43 76 43 76s43-44 43-76C86 19 67 0 43 0Z" fill="url(#brandRed)"/>
+    <path d="M25 27h30M25 43h24M25 59h30" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
   </g>
-  <text x="410" y="145" text-anchor="middle" fill="#fff" font-family="Manrope, Arial, sans-serif" font-size="25" font-weight="600" letter-spacing="8.2">• UKRAINE – ENGLAND •</text>
+  <text x="410" y="145" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="25" font-weight="600" letter-spacing="8.2">• UKRAINE – ENGLAND •</text>
 </svg>
